@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<title>Andrzej Lucjan Śliwa | CTO / Technical Founder / Software Developer</title>
+<style type="text/css">
+
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+audio:not([controls]) {
+  display: none;
+}
+[hidden] {
+  display: none;
+}
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+body {
+  margin: 0;
+}
+a:focus {
+  outline: thin dotted;
+}
+a:hover,
+a:active {
+  outline: 0;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0;
+}
+h6 {
+  font-size: 0.75em;
+  margin: 2.33em 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+strong {
+  font-weight: bold;
+}
+blockquote {
+  margin: 1em 40px;
+}
+dfn {
+  font-style: italic;
+}
+mark {
+  background: #ff0;
+  color: #000;
+}
+p,
+pre {
+  margin: 1em 0;
+}
+pre,
+code,
+kbd,
+samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+}
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+q {
+  quotes: none;
+}
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+small {
+  font-size: 75%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+dl,
+menu,
+ol,
+ul {
+  margin: 1em 0;
+}
+dd {
+  margin: 0 0 0 40px;
+}
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px;
+}
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none;
+}
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 0;
+}
+form {
+  margin: 0;
+}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+  *margin-left: -7px;
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+button,
+input {
+  line-height: normal;
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+  *overflow: visible;
+}
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  *height: 13px;
+  *width: 13px;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body.pdf {
+  color: black;
+}
+body.pdf a {
+  text-decoration: none;
+  color: black;
+}
+body.pdf .container {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0;
+  background: none;
+  border: none;
+  border-width: 8px 0 2px 0;
+  text-align: left;
+}
+body.pdf .resume {
+  position: relative;
+  padding: 40px 80px;
+}
+body.pdf a[href$='.pdf'] {
+  display: none;
+}
+body.pdf a[href$='link'] {
+  display: none;
+}
+body.pdf h1 {
+  letter-spacing: 0;
+  margin-top: 0;
+  font-size: 48px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+body.pdf h2 {
+  letter-spacing: 0;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: normal;
+}
+body.pdf h3 {
+  float: left;
+  width: 16%;
+  font-style: normal;
+}
+body.pdf h3+p {
+  float: left;
+  width: 78%;
+}
+body.pdf blockquote {
+  top: 40px;
+  right: 50px;
+  position: absolute;
+}
+body.pdf ul li {
+  width: 33%;
+  float: left;
+}
+body.pdf ul dl {
+  margin: 0;
+  padding: 0.3em 0 0;
+}
+body.pdf ul dl dt {
+  font-size: 122%;
+  font-weight: normal;
+  margin: 0 0 .75em;
+}
+body.pdf ul dl dd {
+  padding: 0 2em 0 0;
+}
+body.pdf ol {
+  float: left;
+  width: 79%;
+  margin: .7em 0 0;
+}
+body.pdf ol li {
+  width: 33%;
+  margin: 0;
+}
+body.pdf ol li:nth-child(3n) {
+  width: 34%;
+}
+body.pdf ol li:nth-child(1),
+body.pdf ol li:nth-child(2),
+body.pdf ol li:nth-child(3) {
+  border-top: none;
+}
+body.pdf ol li:nth-child(4):nth-last-child(5n+2) {
+  border-top: none;
+}
+body.pdf ol li:nth-child(5):nth-last-child(5n+1) {
+  border-top: none;
+}
+body.pdf ol li:nth-child(5n + 1):nth-last-child(5n + 5) {
+  width: 37%;
+  clear: left;
+  padding-right: 3%;
+}
+body.pdf ol li:nth-child(5n + 2):nth-last-child(5n + 4) {
+  width: 15%;
+  clear: none;
+  padding-right: 2%;
+}
+body.pdf ol li:nth-child(5n + 3):nth-last-child(5n + 3) {
+  width: 13%;
+  clear: none;
+  padding-right: 2%;
+}
+body.pdf ol li:nth-child(5n + 4):nth-last-child(5n + 2) {
+  width: 8%;
+  clear: none;
+  text-align: right;
+  padding-right: 2%;
+}
+body.pdf ol li:nth-child(5n):nth-last-child(5n + 1) {
+  width: 15%;
+  clear: right;
+  text-align: right;
+  font-weight: bold;
+}
+body.pdf dl {
+  margin: .7em 0 0;
+  page-break-inside: avoid !important;
+  display: block;
+  width: 69%;
+  float: left;
+}
+body.pdf dl dd {
+  position: relative;
+  font-size: 100%;
+}
+body.pdf dl dd strong:last-of-type {
+  float: right;
+  display: block;
+  margin: .15em 0 .5em;
+  font-style: bold;
+}
+
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  content: ".";
+}
+body {
+  font-family: 'Hoefler Text', Times New Roman, Times, serif;
+  color: #444;
+}
+h1,
+h2,
+h3,
+h4,
+ul dl dt {
+  font-family: Futura, "Century Gothic", AppleGothic, sans-serif;
+}
+h4 {
+  margin: -0.2em 0em .1em;
+  font-weight: normal;
+}
+.container {
+  margin: 0 auto;
+  padding: 0;
+  background: whiteSmoke;
+  border: solid #666;
+  border-width: 8px 0 2px 0;
+  text-align: left;
+}
+.resume {
+  position: relative;
+  padding: 10px 20px;
+}
+a {
+  color: #990003;
+}
+blockquote > a[href$='.pdf'] {
+  display: inline-block;
+  background: #666;
+  color: white;
+  padding: 6px 12px;
+  margin-bottom: 6px;
+  text-decoration: none;
+}
+blockquote {
+  margin: 0;
+  padding: 0;
+  line-height: 1.4em;
+}
+hr {
+  display: block;
+  position: relative;
+  padding: 0px 0px 8px;
+  margin: 2em 0px 1em;
+  width: 100%;
+  clear: both;
+  border: none;
+  border-top: 1px solid #CCC;
+  font-size: 1px;
+  line-height: 0;
+  overflow: visible;
+  page-break-after: avoid;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
+  letter-spacing: -1px;
+  font-weight: normal;
+}
+h2 {
+  margin: 0em 0em 1em;
+  padding: 0;
+  font-size: 18px;
+  font-style: italic;
+  letter-spacing: -1px;
+  font-weight: normal;
+}
+h3 {
+  margin: 0px 20px;
+  padding: 0 0 .5em;
+  font-size: 140%;
+  font-style: italic;
+  font-weight: normal;
+}
+h3+p {
+  margin: .6em 0 16px;
+  padding: 0;
+  display: block;
+  font-size: 104%;
+  line-height: 24px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: table;
+}
+ul li {
+  margin: 0;
+  padding: 0;
+}
+ul dl {
+  margin: .3em 0 0;
+  padding: 0;
+  width: 100%;
+}
+ul dl dt {
+  font-size: 100%;
+}
+ul dl dd {
+  margin: 0 0 1em;
+  padding: 0 2em 0 0;
+  font-size: .8em;
+  line-height: 1.5em;
+}
+ol {
+  margin: 0;
+  padding: 0 0 .75em;
+  width: 84%;
+  display: inline-block;
+}
+ol li {
+  margin: 0 0 0 1em;
+  padding: 0;
+  border-top: 1px solid #CCCCCC;
+  width: 100%;
+  float: left;
+  list-style: none;
+  line-height: 24px;
+}
+ol li p {
+  margin: 0px;
+}
+ol li:nth-child(1) {
+  border-top: none;
+}
+ol li h4 {
+  margin: 1em 0em 0em;
+}
+dl {
+  display: inline-block;
+  width: 79%;
+  margin: 0;
+  padding: 0;
+}
+dl dt {
+  margin: 0;
+  padding: 0;
+  font-size: 120%;
+}
+dl dd {
+  clear: right;
+  margin: 0 0 1.5em;
+  padding: 0;
+  line-height: 1.4em;
+  padding-left: 30px;
+  text-indent: -30px;
+}
+dl dd p {
+  margin: 0px;
+}
+#footer {
+  display: none;
+}
+#footer + p {
+  width: 100%;
+  font-size: 11px;
+  text-align: center;
+}
+
+@media screen and (min-width: 37.5em) {
+  body {
+    padding: 2em 0;
+  }
+  blockquote {
+    top: 10px;
+    right: 50px;
+    position: absolute;
+  }
+  h1 {
+    margin-top: .5em;
+  }
+  ol {
+    margin: 0 0 0 1em;
+  }
+  ol li {
+    width: 50%;
+    margin: 0;
+  }
+  ol li:nth-child(1),
+  ol li:nth-child(2) {
+    border-top: none;
+  }
+}
+@media screen and (min-width: 57em) {
+  .container {
+    width: 912px;
+  }
+  .resume {
+    position: relative;
+    padding: 40px 50px;
+  }
+  blockquote {
+    top: 40px;
+    right: 50px;
+    position: absolute;
+  }
+  h1 {
+    margin-top: 0;
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: normal;
+  }
+  h2 {
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-weight: normal;
+  }
+  h3 {
+    float: left;
+    width: 16%;
+  }
+  h3+p {
+    float: left;
+    width: 78%;
+  }
+  ul li {
+    width: 33%;
+    float: left;
+  }
+  ul dl dt {
+    font-size: 122%;
+    font-weight: normal;
+    margin-bottom: .75em;
+  }
+  ul dl dd {
+    padding: 0 2em 0 0;
+  }
+  ol {
+    float: left;
+    width: 79%;
+    margin: .6em 0 0;
+  }
+  ol li {
+    width: 33%;
+    margin: 0;
+  }
+  ol li:nth-child(3n) {
+    width: 34%;
+  }
+  ol li:nth-child(1),
+  ol li:nth-child(2),
+  ol li:nth-child(3) {
+    border-top: none;
+  }
+  dl {
+    margin: .5em 0 0;
+  }
+  dl dd {
+    position: relative;
+    width: 74%;
+  }
+  dl dd strong {
+    padding-bottom: 1px;
+    border-bottom: 1px solid;
+    font-weight: normal;
+  }
+  dl dd strong:last-of-type {
+    border-bottom: none;
+    float: right;
+    position: absolute;
+    top: 0px;
+    right: -20%;
+    font-weight: bold;
+    text-align: right;
+  }
+  #funding + dl dd em:last-of-type {
+    float: right;
+    font-weight: bold;
+    font-style: normal;
+    font-size: .9em;
+  }
+  ol li:nth-child(4):nth-last-child(5n+2) {
+    border-top: none;
+  }
+  ol li:nth-child(5):nth-last-child(5n+1) {
+    border-top: none;
+  }
+  ol li:nth-child(5n + 1):nth-last-child(5n + 5) {
+    width: 35%;
+    clear: left;
+    padding-right: 3%;
+  }
+  ol li:nth-child(5n + 2):nth-last-child(5n + 4) {
+    width: 15%;
+    clear: none;
+    padding-right: 2%;
+  }
+  ol li:nth-child(5n + 3):nth-last-child(5n + 3) {
+    width: 13%;
+    clear: none;
+    padding-right: 2%;
+  }
+  ol li:nth-child(5n + 4):nth-last-child(5n + 2) {
+    width: 8%;
+    clear: none;
+    text-align: right;
+    padding-right: 2%;
+  }
+  ol li:nth-child(5n):nth-last-child(5n + 1) {
+    width: 15%;
+    clear: right;
+    text-align: right;
+    font-weight: bold;
+  }
+}
+@media print {
+  body {
+    color: black;
+    margin: 0px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .container {
+    margin: 0 auto;
+    padding: 0;
+    background: none;
+    border: none;
+    border-width: 8px 0 2px 0;
+    text-align: left;
+  }
+  .resume {
+    position: relative;
+    padding: 0px 20px 0px 0px;
+  }
+  a[href$='.pdf'] {
+    display: none;
+  }
+  h1 {
+    letter-spacing: 0;
+    margin-top: 0;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: normal;
+  }
+  h2 {
+    letter-spacing: 0;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: normal;
+  }
+  h3 {
+    float: left;
+    width: 16%;
+    margin-left: 0px;
+    font-style: normal;
+    page-break-inside: avoid;
+  }
+  h3+p {
+    float: left;
+    width: 78%;
+  }
+  hr {
+    page-break-after: avoid;
+  }
+  blockquote {
+    top: 40px;
+    right: 50px;
+    position: absolute;
+  }
+  ul li {
+    width: 33%;
+    float: left;
+    page-break-inside: avoid !important;
+  }
+  ul dl {
+    margin: 0;
+    padding: 0.3em 0 0;
+  }
+  ul dl dt {
+    font-size: 122%;
+    font-weight: normal;
+    margin: 0 0 .75em;
+  }
+  ul dl dd {
+    position: relative;
+    padding: 0 2em 0 0;
+    page-break-inside: avoid !important;
+  }
+  ol {
+    float: left;
+    width: 81%;
+    margin: .7em 0 0;
+  }
+  ol li {
+    width: 33%;
+    margin: 0;
+    page-break-inside: avoid !important;
+  }
+  ol li:nth-child(3n) {
+    width: 34%;
+  }
+  ol li:nth-child(1),
+  ol li:nth-child(2),
+  ol li:nth-child(3) {
+    border-top: none;
+  }
+  ol li:nth-child(4):nth-last-child(5n+2) {
+    border-top: none;
+  }
+  ol li:nth-child(5):nth-last-child(5n+1) {
+    border-top: none;
+  }
+  ol li:nth-child(1):nth-last-child(5n + 5) {
+    width: 38%;
+    clear: left;
+    padding-right: 3%;
+  }
+  ol li:nth-child(2):nth-last-child(5n + 4) {
+    width: 15%;
+    clear: none;
+    padding-right: 2%;
+  }
+  ol li:nth-child(3):nth-last-child(5n + 3) {
+    width: 15%;
+    clear: none;
+    padding-right: 2%;
+  }
+  ol li:nth-child(4):nth-last-child(5n + 2) {
+    width: 8%;
+    clear: none;
+    text-align: right;
+    padding-right: 2%;
+  }
+  ol li:nth-child(5):nth-last-child(5n + 1) {
+    width: 15%;
+    clear: right;
+    text-align: right;
+    font-weight: bold;
+  }
+  ol li:nth-child(5n + 1):nth-last-child(5n + 5) {
+    width: 38%;
+    clear: left;
+    padding-right: 3%;
+  }
+  ol li:nth-child(5n + 2):nth-last-child(5n + 4) {
+    width: 15%;
+    clear: none;
+    padding-right: 2%;
+  }
+  ol li:nth-child(5n + 3):nth-last-child(5n + 3) {
+    width: 15%;
+    clear: none;
+    padding-right: 2%;
+  }
+  ol li:nth-child(5n + 4):nth-last-child(5n + 2) {
+    width: 8%;
+    clear: none;
+    text-align: right;
+    padding-right: 2%;
+  }
+  ol li:nth-child(5n):nth-last-child(5n + 1) {
+    width: 15%;
+    clear: right;
+    text-align: right;
+    font-weight: bold;
+  }
+  dl {
+    margin: .7em 0 0;
+    display: block;
+    width: 68%;
+    float: left;
+  }
+  dl dt {
+    page-break-after: avoid !important;
+  }
+  dl dd {
+    position: relative;
+    page-break-inside: avoid !important;
+  }
+  dl dd strong {
+    padding-bottom: 1px;
+    border-bottom: 1px solid;
+    font-weight: normal;
+  }
+  dl dd strong:last-of-type {
+    border-bottom: none;
+    font-weight: bold;
+    position: absolute;
+    top: 0px;
+    right: -19%;
+    float: right;
+    display: block;
+    margin: .15em 0 .5em;
+    text-align: right;
+  }
+  dl dd + dt {
+    margin-top: 1em;
+  }
+  .container {
+    width: 215mm;
+  }
+  @page {
+    size: auto;
+    margin: 25mm 25mm 25mm 25mm;
+  }
+}
+
+</style>
+</head>
+
+<body class="">
+
+<div class="container">
+    <div class="resume">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<script type='text/javascript'>
+  $( document ).ready(function() {
+    // clean up some dd's that don't have a p
+    $("dd:not(:has('p'))").each(function(i, element) { 
+      $(element).wrapInner('<p></p>');
+    });
+
+    $.getScript('./stats-ir.js', function() {
+      article_stats = data[0]['stats']['articles'];
+
+      $('a').each(function(i, element) { 
+
+        var href = $(element)[0].getAttribute('href');
+        if ($(element)[0].innerHTML.indexOf('doi.org') == 0 ) {
+          $($(element)[0]).addClass('doiLink');
+          var doi = $(element)[0].innerHTML;
+          doi = doi.substr(doi.indexOf('/') + 1);  // strip out doi.org/ 
+          $($(element)[0]).closest('dd').append('<div data-badge-popover="right" data-badge-type="2" data-doi="' + doi + '" data-hide-no-mentions="true" class="altmetric-embed"></div>');
+            metrics = true;
+        } else if (href.indexOf('scholar.google.com') > 0) {
+          var gsid = href.substring(href.indexOf('cites=') + 6)
+          for (var i=0; i<article_stats.length; i++) {
+            if (article_stats[i][0].indexOf(gsid) > 0) {
+              $($(element)[0]).closest('dd').append('<div class="google-scholar"><a href="' + href +'" ><img src="scholar_logo_long.png" align="left" /></a><span class="metricbubble">' + article_stats[i][1] + '</span></div>');
+              $(element).remove()
+            }
+          }
+        } 
+      });  
+    });
+
+    $.getScript("https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js", function() {
+        $('head').append('<link rel="stylesheet" href="./altmetric-overrides.css" type="text/css" />')
+    });
+
+    $('head').append('<link rel="stylesheet" href="genericons/genericons.css" type="text/css" />');
+
+    // Do some link handling
+    $("a").attr('target','_blank');
+
+    // change links called "link" to icon
+    $("a").filter(function() {
+      return $(this).text() === "link";
+    }).addClass("with-genericon").addClass("externalLink").attr('alt', 'link to open access version').text(' ');
+
+    // change links called "video" to icon
+    $("a").filter(function() {
+      return $(this).text() === "video";
+    }).addClass("with-genericon").addClass("videoLink").attr('alt', 'link to video').text(' ');
+
+    // change links called "slides" to icon
+    $("a").filter(function() {
+      return $(this).text() === "slides";
+    }).addClass("with-genericon").addClass("slidesLink").attr('alt', 'link to slides').attr('title', 'link to slides').text(' ');
+
+    // change Twitter link to icon
+    $("a").filter(function() {
+      return $(this).text() === "Twitter";
+    }).addClass("with-genericon").addClass("contant-icon").addClass("twitterLink").attr('alt', 'Twitter').attr('title', 'Twitter').text(' ');
+
+    // change Github link to icon
+    $("a").filter(function() {
+      return $(this).text() === "Github";
+    }).addClass("with-genericon").addClass("contant-icon").addClass("githubLink").attr('alt', 'Github').attr('title', 'Github').text(' ');
+
+    // change Github link to icon
+    $("a").filter(function() {
+      return $(this).text() === "email";
+    }).addClass("with-genericon").addClass("contant-icon").addClass("emailLink").attr('alt', 'email').attr('title', 'email').text(' ');    
+
+  });
+</script>
+
+<h1>Andrzej Lucjan Śliwa</h1>
+
+<h2>CTO / Technical Founder / Software Developer</h2>
+
+<p><a href="https://twitter.com/andrzejsliwa">Twitter</a>
+<a href="https://github.com/andrzejsliwa">Github</a>
+<a href="https://pl.linkedin.com/in/sliwa">LinkedIn</a>
+<a href="mailto:andrzej.sliwa@i-tool.eu">Email</a></p>
+
+<blockquote>
+  <p><a href="andrzejsliwa.pdf">Download PDF</a></p>
+</blockquote>
+
+<hr />
+
+<h3 id="education">Education</h3>
+
+<dl>
+<dt>Master of Computer Science, Poznan University of Technology</dt>
+<dd>Computer Science Honours, Software Engineering
+<strong>2009</strong></dd>
+
+<dt>Bachelor of Computer Science, Information Technology Vocational College</dt>
+<dd>Computer Science Honours, Databases
+<strong>2007</strong></dd>
+</dl>
+
+<hr />
+
+<h3 id="employment">Professional Affiliations</h3>
+
+<dl>
+<dt>Chief Technology Officer</dt>
+<dd>Mediteo GmbH<br />
+<strong>2016 – present</strong></dd>
+
+<dd>
+<p>I redefined technical strategy of Mediteo by redesign and choosing more suitables architectures for server infrastructure, backend and mobile clients. Led Engineering, Product, Design and QA teams.</p>
+
+<p>Built a distributed team of passion-driven professionals. Successfully applied Agile methodologies.</p>
+
+<p>Encouraged team to build quality software by following Test Driven Development, Pair Programming, Domain Driven Design, CQRS and Event Sourcing.</p>
+
+<p>Supported CEO at evolving the company’s mission, vision and goals to serve its customers as the best healthcare product provider, helping them to actively manage their well-being.</p>
+
+<p>We are constantly improving patient’s engagement to boost their treatment and ultimately reduce health care costs for the benefit of everyone.</p>
+</dd>
+
+<dt>VP Engineering</dt>
+<dd>Mediteo GmbH
+<strong>2015 – 2016</strong></dd>
+
+<dd>
+<p>I built a distributed team of passion-driven professionals. 
+In over 150 interviews I hired the best international talents to join our team. I’ve established an interview process to hire based on communication skills and core­values over technical experience.</p>
+</dd>
+
+<dt>Lead Software Developer</dt>
+<dd>Bonusbox GmbH
+<strong>2012 - 2015</strong></dd>
+
+<dd>
+<p>We developed our platform as micro­services in Ruby and Erlang which communicated over RabbitMQ (as message bus). We hosted our software on AWS and implemented infrastructure­ as­ code using Ansible as provisioning tool to fully automate the server­ setup, scaling and maintenance. We followed code­ reviews to communicate best­ practices, pair programming, test driven development, SOLID design patterns and Even Driven Architecture.</p>
+</dd>
+
+<dt>Contractor - Technical Project Leader</dt>
+<dd>Consileon Polska
+<strong>2007 - 2012</strong></dd>
+
+<dd>We built a number of products for our customers (Banking, E-Commerce, Startups). With using best tools for the job (Java, Erlang, Ruby on Rails, Django). I Led team of Engineers responsible for design and implementation. I organize internal Workshops (Software Engineering, Scrum/Agile). I represented company on Conferences as speaker.</dd>
+
+<dt>Software Architect</dt>
+<dd>T3 S.C
+<strong>2007 - 2007</strong></dd>
+
+<dd>We built a business intelligence system for one biggest Insurance
+company in Poland (Java EE).<br />
+We built our own product - invoicing system.</dd>
+
+<dt>Senior Software Developer</dt>
+<dd>Accenture Sp. z o.o.
+<strong>2006 - 2007</strong></dd>
+
+<dd>We built a new CRM for one of biggest Polish Telecoms, we migrated 
+platform to Java Technology. I was responsible for building full integrations between CRM and Lotus Notes - integrations of Leads notification, scheduling meetings / calls directly in Lotus Notes calendar.</dd>
+
+<dt>Software Developer</dt>
+<dd>Prolife Software Developer
+<strong>2005 - 2006</strong></dd>
+
+<dd>We built a Decision Support System for Emergency and call centers,
+fully integrated for automation and communication hardware.
+We built dedicated time control system for local court.</dd>
+
+<dt>Software Developer</dt>
+<dd>Systemhaus Scheuschner Gmbh
+<strong>2005 - 2006</strong></dd>
+
+<dd>I built a mobile application for tracking travels costs of Ambulances for Insurance Customers.
+I built a device drivers / servers (multithreaded) for Decision Support System and Telecommunication</dd>
+</dl>
+
+<hr />
+
+<h3 id="interests">Skills</h3>
+
+<ol>
+<li>Ruby / Ruby on Rails - <strong>Expert</strong></li>
+<li>RSpec / Capybara / Cucumber - <strong>Advanced</strong></li>
+<li>Erlang / Elixir / Phoenix - <strong>Expert</strong></li>
+<li>Python / Django - <strong>Advanced</strong> </li>
+<li>JavaScript / Node.js - <strong>Advanced</strong></li>
+<li>Java / Spring / JavaEE - <strong>Expert</strong></li>
+<li>Clojure / ClojureScript - <strong>Advanced</strong></li>
+<li>React.js - <strong>Intermediate</strong></li>
+<li>JQuery - <strong>Advanced</strong></li>
+<li>Ember.js - <strong>Advanced</strong></li>
+<li>Knockout.js - <strong>Advanced</strong></li>
+<li>Android - <strong>Advanced</strong></li>
+<li>Postgres SQL, MySQL - <strong>Advanced</strong></li>
+<li>Riak, CouchDB, ElasticSearch, Solr - <strong>Advanced</strong></li>
+<li>Amazon Web Services - <strong>Expert</strong></li>
+<li>Lambda Architecture - <strong>Expert</strong></li>
+<li>Clean, CQRS, Event Sourcing - <strong>Advanced</strong></li>
+<li>Domain Driven Design - <strong>Intermediate</strong></li>
+<li>Test Driven Development - <strong>Expert</strong></li>
+<li>Scrum, Kanban - <strong>Advanced</strong></li>
+<li>Apacha Cordova / Phonegap - <strong>Advanced</strong></li>
+<li>REST, WebServices, SOAP - <strong>Expert</strong></li>
+<li>C# .NET - <strong>Advanced</strong></li>
+<li>GIT, Subversion - <strong>Advanced</strong></li>
+</ol>
+
+<hr />
+
+<h3 id="interests">Interests</h3>
+
+<ol>
+<li>Digital Health</li>
+<li>Machine Learning</li>
+<li>Compiler Construction</li>
+<li>Functional Programming</li>
+<li>Distributed Software</li>
+<li>Home Automation</li>
+<li>Hiking / Swimming / Biking</li>
+<li>Wood working</li>
+</ol>
+
+<hr />
+
+<h3 id="teaching">Teaching</h3>
+
+<dl>
+<dt><h4>Workshops</h4></dt>
+<dd>
+<p><strong>Scrum For Software Developers</strong>, I-Tool Software
+<strong>2009-2012</strong></p>
+</dd>
+
+<dd>
+<p><strong>Programming in Ruby</strong>, I-Tool Software
+<strong>2007-2012</strong></p>
+</dd>
+
+<dd>
+<p><strong>BDD Cucumber/RSpec in Ruby on Rails</strong>, I-Tool Software
+<strong>2007-2012</strong></p>
+</dd>
+
+<dd>
+<p><strong>Web development in Ruby on Rails</strong>, I-Tool Software
+<strong>2007-2012</strong></p>
+</dd>
+
+<dd>
+<p><strong>Programming in Java</strong>, I-Tool Software
+<strong>2007-2012</strong></p>
+</dd>
+
+<dd>
+<p><strong>Web development in JBoss SEAM</strong>, I-Tool Software
+<strong>2007-2012</strong></p>
+</dd>
+
+<dd>
+<p><strong>Maven - Basics</strong>, I-Tool Software
+<strong>2007-2012</strong></p>
+</dd>
+
+<dd>
+<p><strong>Maven - Writing Extensions</strong>, I-Tool Software
+<strong>2007-2012</strong></p>
+</dd>
+
+<dd>
+<p><strong>Git - Version Controll System</strong>, I-Tool Software
+<strong>2007-2012</strong></p>
+</dd>
+</dl>
+
+<hr />
+
+<h3 id="publications">Publications</h3>
+
+<dl>
+<dt><h4>Magazines</h4></dt>
+<dd>
+<p>Andrzej L. Śliwa, <strong>Cucumber &amp; Rspec - OutsideIn approach in Ruby on Rails</strong>, Software Developer Journal. <a href="http://www.gmmobile.pl/pobieranie/Cucumber_Rspec_SDJ_3-2011.pdf">link</a>
+<strong>2009</strong></p>
+</dd>
+
+<dt><h4>Book Reviewer</h4></dt>
+<dd>
+<p>Francesco Cesarini, Steve Vinoski, <strong>Designing for Scalability with Erlang/OTP</strong>, Technical Review
+<strong>2016</strong></p>
+</dd>
+</dl>
+
+<hr />
+
+<h3 id="presentations">Presentations</h3>
+
+<dl>
+<dt><h4>Conference Presentations</h4></dt>
+<dd>
+<p>Andrzej L. Śliwa, <strong>GIT - Distributed Version Control System</strong>, Java4People Conference
+<strong>2009</strong></p>
+</dd>
+
+<dd>
+<p>Andrzej L. Śliwa, <strong>Cucumber &amp; Java</strong>, Java4People Conference
+<strong>2011</strong></p>
+</dd>
+</dl>
+
+<hr />
+
+<h3 id="footer">Footer</h3>
+
+<p>Andrzej Lucjan Śliwa - andrzej.sliwa@i-tool.eu</p>
+
+<hr />
+
+    </div>
+</div>
+
+</body>
+</html>
