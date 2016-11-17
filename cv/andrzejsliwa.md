@@ -101,62 +101,60 @@ Bachelor of Computer Science, Information Technology Vocational College
 
 Chief Technology Officer
  : Mediteo GmbH   
- __2016 – present__
+ __2016 – present__
  
- : I redefined technical strategy of Mediteo by redesign and choosing more suitables architectures for server infrastructure, backend and mobile clients. Led Engineering, Product, Design and QA teams. 
+ : I redefined the technical strategy of Mediteo by redesigning and choosing a more suitables architecture for the server infrastructure, the backend and all mobile clients. I led the engineering, product, design and QA teams.
    
-   Built a distributed team of passion-driven professionals. Successfully applied Agile methodologies. 
+   I built a distributed team of passionate professionals and successfully applied agile methodologies. 
    
-   Encouraged team to build quality software by following Test Driven Development, Pair Programming, Domain Driven Design, CQRS and Event Sourcing. 
+   I encouraged the team to build quality software by following test-driven-development, pair-programming, domain-driven-design, CQRS and event-sourcing.
    
-   Supported CEO at evolving the company’s mission, vision and goals to serve its customers as the best healthcare product provider, helping them to actively manage their well-being.
+   I supported the CEO evolving the company’s mission, vision and goals to serve our customers as the best healthcare product provider to actively help customers managing their well-being.
    
-   We are constantly improving patient’s engagement to boost their treatment and ultimately reduce health care costs for the benefit of everyone.
+   We are constantly improving the engagement of patients to boost their treatment and ultimately reduce health care costs for the benefit of everyone.
 
   
 VP Engineering 
  : Mediteo GmbH
-  __2015 – 2016__
+  __2015 – 2016__
   
- : I built a distributed team of passion-driven professionals. 
- In over 150 interviews I hired the best international talents to join our team. I’ve established an interview process to hire based on communication skills and core­values over technical experience.
+ : I built a distributed team of passionate professionals. 
+ In over 150 interviews I hired the best international talents to join our team. I’ve established an interview process to hire based on communication skills and core-values over technical experience.
    
 Lead Software Developer
  : Bonusbox GmbH
   __2012 - 2015__
   
- : We developed our platform as micro­services in Ruby and Erlang which communicated over RabbitMQ (as message bus). We hosted our software on AWS and implemented infrastructure­ as­ code using Ansible as provisioning tool to fully automate the server­ setup, scaling and maintenance. We followed code­ reviews to communicate best­ practices, pair programming, test driven development, SOLID design patterns and Even Driven Architecture.
+ : We developed our platform as micro-services in Ruby and Erlang which communicated over RabbitMQ (as a message-bus). We hosted our software on AWS and implemented infrastructure-as-code using Ansible as our provisioning tool to fully automate the server-setup, scaling and maintenance. We established code-reviews to communicate best-practices, pair programming, test driven development, SOLID design patterns and event-driven architecture.
 
 Contractor - Technical Project Leader
  : Consileon Polska
   __2007 - 2012__
- : We built a number of products for our customers (Banking, E-Commerce, Startups). With using best tools for the job (Java, Erlang, Ruby on Rails, Django). I Led team of Engineers responsible for design and implementation. I organize internal Workshops (Software Engineering, Scrum/Agile). I represented company on Conferences as speaker.
+ : We built a number of products for our customers (Banking, E-Commerce, Startups) utilizing the best tool for the job (Java, Erlang, Ruby on Rails, Django). I led a team of engineers and I was responsible for design and implementation. I organized internal workshops (Software Engineering, Scrum/Agile). I represented the company on conferences as a speaker.
 
 Software Architect
  : T3 S.C
   __2007 - 2007__
- : We built a business intelligence system for one biggest Insurance
-   company in Poland (Java EE).  
-   We built our own product - invoicing system.
+ : We built a business intelligence system for one of the biggest insurance companies in Poland (Java EE).  
+   We built our own product, an invoicing system.
 
 Senior Software Developer
  : Accenture Sp. z o.o.
   __2006 - 2007__
- : We built a new CRM for one of biggest Polish Telecoms, we migrated 
- platform to Java Technology. I was responsible for building full integrations between CRM and Lotus Notes - integrations of Leads notification, scheduling meetings / calls directly in Lotus Notes calendar.
+ : We built a new CRM for one of biggest Polish telecoms, we migrated the platform to Java. I was responsible for building full integrations between CRM and Lotus Notes - integrations for leads notifications, scheduling meetings and calls directly in the Lotus Notes calendar.
 
 Software Developer
  : Prolife Software Developer
   __2005 - 2006__
- : We built a Decision Support System for Emergency and call centers,
- fully integrated for automation and communication hardware.
- We built dedicated time control system for local court.
+ : We built a decision support system for emergency and call centers,
+ fully integrated with automation and communication hardware.
+ We built dedicated time control system for the local court.
 
 Software Developer
  : Systemhaus Scheuschner Gmbh
   __2005 - 2006__
- : I built a mobile application for tracking travels costs of Ambulances for Insurance Customers.
- I built a device drivers / servers (multithreaded) for Decision Support System and Telecommunication
+ : I built a mobile application for tracking travel-costs of ambulances for insurance customers.
+ I built device drivers and multithreaded servers for decision support system and telecommunication.
 
 
 -------
