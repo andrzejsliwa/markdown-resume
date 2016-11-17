@@ -100,8 +100,8 @@ Bachelor of Computer Science, Information Technology Vocational College
 ### Professional Affiliations {#employment}
 
 Chief Technology Officer
- : Mediteo GmbH   
- __2016 – present__
+ : Mediteo GmbH
+ __2016 - present__
  
  : I redefined the technical strategy of Mediteo by redesigning and choosing a more suitables architecture for the server infrastructure, the backend and all mobile clients. I led the engineering, product, design and QA teams.
    
@@ -116,7 +116,7 @@ Chief Technology Officer
   
 VP Engineering 
  : Mediteo GmbH
-  __2015 – 2016__
+  __2015 - 2016__
   
  : I built a distributed team of passionate professionals. 
  In over 150 interviews I hired the best international talents to join our team. I’ve established an interview process to hire based on communication skills and core-values over technical experience.
@@ -144,7 +144,7 @@ Senior Software Developer
  : We built a new CRM for one of biggest Polish telecoms, we migrated the platform to Java. I was responsible for building full integrations between CRM and Lotus Notes - integrations for leads notifications, scheduling meetings and calls directly in the Lotus Notes calendar.
 
 Software Developer
- : Prolife Software Developer
+ : Prolife Software Sp. z o.o.
   __2005 - 2006__
  : We built a decision support system for emergency and call centers,
  fully integrated with automation and communication hardware.
